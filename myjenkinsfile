@@ -12,6 +12,7 @@ pipeline {
                    mave_goals.cloneGit()
             }
         }
+       }
         stage('Compile and Testing'){
             steps{
                 script{
